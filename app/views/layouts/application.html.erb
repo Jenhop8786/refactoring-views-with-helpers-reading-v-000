@@ -7,6 +7,9 @@
   <%= csrf_meta_tags %>
   <%= yield :title %>
 </head>
+<head>
+  <title><%= yield :title %></title>
+</head>
 <body>
 
 <%= yield %>
